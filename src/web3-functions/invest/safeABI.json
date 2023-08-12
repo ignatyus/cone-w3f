@@ -1,0 +1,7 @@
+["function encodeTx(address _safe, tuple(address to, bytes4 selector, bool hasValue, uint8 operation)[] _txSpecs) pure returns (bytes32)",
+  "function execute(address _safe, tuple(address to, bytes data, uint256 value, uint8 operation)[] _txs)",
+  "function getExecTx(tuple(address to, bytes data, uint256 value, uint8 operation)[] _txs) pure returns (tuple(address to, bytes data, uint256 value, uint8 operation) execTx)",
+  "function isWhitelistedTransaction(address _safe, tuple(address to, bytes4 selector, bool hasValue, uint8 operation)[] _txSpecs) view returns (bool)",
+  "function removeTransaction(tuple(address to, bytes4 selector, bool hasValue, uint8 operation)[] _txs)",
+  "function whitelistTransaction(tuple(address to, bytes4 selector, bool hasValue, uint8 operation)[] _txs)"
+]
